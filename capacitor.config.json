@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "capturedata",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

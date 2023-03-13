@@ -1,0 +1,7 @@
+{
+  "name": "capturedata",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
