@@ -1,12 +1,20 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>home</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-menu contentId="menu-navbar">
+  <app-menu></app-menu>
+</ion-menu>
+<div class="ion-page" id="menu-navbar">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>home</ion-title>
+    </ion-toolbar>
+  </ion-header>
 
-<ion-content>
-<div style="margin:10px; width: 500px; display:flex; justify-content: space-around;">
-  <ion-button (click)="goToPage(1)">Page 1</ion-button>
-  <ion-button (click)="goToPage(2)">Page 2</ion-button>
+  <ion-content>
+    <div style="margin:10px; width: 500px; display:flex; justify-content: space-around;">
+      <ion-button (click)="goToPage(1)">Page 1</ion-button>
+      <ion-button (click)="goToPage(2)">Page 2</ion-button>
+    </div>
+  </ion-content>
 </div>
-</ion-content>

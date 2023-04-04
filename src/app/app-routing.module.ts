@@ -3,7 +3,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'page2',
+    path: 'external',
     redirectTo: 'page2',
     pathMatch: 'full'
   },
